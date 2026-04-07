@@ -1,13 +1,22 @@
 {
   "name": "disaster_project",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dashboard.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gksahoo2003-dev/disaster-project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gksahoo2003-dev/disaster-project/issues"
+  },
+  "homepage": "https://github.com/gksahoo2003-dev/disaster-project#readme",
   "description": "",
   "dependencies": {
     "cors": "^2.8.6",
